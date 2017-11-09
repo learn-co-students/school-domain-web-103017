@@ -25,7 +25,7 @@ class School
   end
 
   def sort
-    @roster.each_value { |v| v.sort! }
+    @roster.each { |k,v| v.sort! }
         #binding.pry
   end
 
